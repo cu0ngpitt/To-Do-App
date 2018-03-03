@@ -11,7 +11,7 @@ inputList.addEventListener("keyup",function(event) {
 function addList() {
   let disp = document.getElementById("dispList"),
       newLi = document.createElement("li");
-  newLi.innerHTML = '<input type="checkbox" /> ' + inputList.value;
+  newLi.innerHTML = "<input type='checkbox' /> " + inputList.value;
   disp.appendChild(newLi);
 
   inputList.value = '';
